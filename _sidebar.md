@@ -15,4 +15,4 @@
 
 - Clean up
 
-  - [Delete cluster](2-clean-up/1-clean-up.md)
+  - [Delete cluster](3-clean-up/1-clean-up.md)
