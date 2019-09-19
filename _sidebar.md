@@ -11,4 +11,9 @@
   - [Create Service](1-deploy-task/2-create-service.md)
   - [Create Cluster](1-deploy-task/3-create-cluster.md)
 
+-- Clean up
+
+  - [Delete cluster](2-clean-up/1-clean-up.md)
+
+
 - [Changelog](changelog.md)
