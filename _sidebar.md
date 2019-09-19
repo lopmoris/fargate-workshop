@@ -13,9 +13,6 @@
   - [Verify Application](1-deploy-task/4-verify-application.md)
   - [Increase Tasks](1-deploy-task/5-increase-tasks.md)
 
--- Clean up
+- Clean up
 
   - [Delete cluster](2-clean-up/1-clean-up.md)
-
-
-- [Changelog](changelog.md)
