@@ -10,6 +10,9 @@
   - [Create Container and Task](1-deploy-task/1-create-container-task.md)
   - [Create Service](1-deploy-task/2-create-service.md)
   - [Create Cluster](1-deploy-task/3-create-cluster.md)
+  - [Verify Application](1-deploy-task/4-verify-application.md)
+  - [Increase Tasks](1-deploy-task/5-increase-tasks.md)
+
 
 -- Clean up
 
