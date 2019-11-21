@@ -36,8 +36,13 @@
 
   <script>
     window.$docsify = {
+      search: 'auto',
       repo: 'rasensio/fargate-workshop',
       loadSidebar: true,
+      alias: {
+      '/.*/_sidebar.md': '/_sidebar.md',
+      '/.*/_navbar.md': '/_navbar.md'
+      },
       subMaxLevel: 2,
       loadNavbar: true,
       coverpage: true,
@@ -62,7 +67,8 @@
   <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
   <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
-  <script src="/plugins/footer.js"></script>
+  <!-- <script src="/plugins/footer.js"></script> -->
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
