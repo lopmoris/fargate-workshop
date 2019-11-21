@@ -1,6 +1,9 @@
 function editInGithub(hook, vm) {
   hook.beforeEach((html) => {
-    var url = 'https://github.com/rasensio/fargate-workshop/edit/master/' + vm.route.file;
+    window.$docsify.editInGithubUrl = window.$docsify.editInGithubUrl || 'https://github.com';
+
+    var basePath = window.$docsify.editInGithubUrl
+    var url = basePath + vm.route.file;
     var editHtml = '[📝 Edit in Github](' + url + ')\n';
     return (
       editHtml +
