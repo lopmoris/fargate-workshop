@@ -24,6 +24,11 @@
     font-size: 1.1em;
   }  
 
+  img[alt=screenshot] {
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px darkgray;
+  }
+
 </style>
 </head>
 <body>
@@ -32,9 +37,8 @@
   <script>
     window.$docsify = {
       repo: 'rasensio/fargate-workshop',
-      // routerMode: 'history',
       loadSidebar: true,
-      subMaxLevel: 3,
+      subMaxLevel: 2,
       loadNavbar: true,
       coverpage: true,
       onlyCover: false,
@@ -58,7 +62,7 @@
   <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
   <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <script src="/plugins/footer.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <!-- <script src="/pagination/docsify-pagination.js"></script> -->
 </body>
 </html>
