@@ -14,3 +14,4 @@ https://eu-west-1.console.aws.amazon.com/ecs/home?region=eu-west-1#/clusters
 * Click on your ``nginx-cluster`` just created
   
 ![screenshot](img/7-create-cluster.png)
+

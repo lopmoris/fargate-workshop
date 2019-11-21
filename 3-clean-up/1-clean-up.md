@@ -19,3 +19,4 @@ https://eu-west-1.console.aws.amazon.com/ecs/home?region=eu-west-1#/clusters
 * On the dialog enter the ``delete me`` and press ``Delete``
   
 ![screenshot](img/1-clean-up-cluster.png)
+

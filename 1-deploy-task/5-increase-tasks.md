@@ -19,3 +19,4 @@ As you can observe in the ``Tasks`` tab, we currently have 3 tasks only. We will
 Go back to the services and to the ``Tasks`` tabs. Now you should see ECS provisioning a total of 6 tasks for your nginx container.
 
 ![screenshot](img/11-create-cluster.png)
+
